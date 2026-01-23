@@ -3,8 +3,8 @@ import numpy as np
 from skimage import measure
 from skimage.segmentation import flood
 from skimage.transform import resize
-import os                # 
-import matplotlib.pyplot as plt  # 
+import os                # <<< ADD THIS
+import matplotlib.pyplot as plt  # <<< ADD THIS if you want to show images
 
 #######################################################
  #Noise Removal (Median Filter 3×3)
@@ -230,7 +230,6 @@ if __name__ == "__main__":
             plt.show()
 
             print(f"Processed: {filename}")
-
 
 
 
